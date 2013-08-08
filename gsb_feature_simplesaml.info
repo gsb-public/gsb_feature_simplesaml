@@ -5,6 +5,7 @@ package = GSB
 version = 7.x-1.0
 project = gsb_feature_simplesaml
 dependencies[] = ctools
+dependencies[] = gsb_acquia_tokens
 dependencies[] = panelizer
 dependencies[] = simplesaml_auth
 dependencies[] = strongarm
