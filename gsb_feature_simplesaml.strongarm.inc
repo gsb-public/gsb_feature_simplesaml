@@ -79,7 +79,8 @@ function gsb_feature_simplesaml_strongarm() {
   $strongarm->name = 'simplesaml_auth_pages';
   $strongarm->value = 'admin
 admin/*
-user';
+user
+12Twenty-student';
   $export['simplesaml_auth_pages'] = $strongarm;
 
   $strongarm = new stdClass();
